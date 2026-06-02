@@ -1,3 +1,5 @@
+-- I have tried every way short of a json file to server verify the transfer and just admin cammond it, it shouldnt have to take that tho!
+
 if not isServer() then return end
 
 local function OnClientCommand(module, command, player, args)
@@ -12,11 +14,11 @@ local function OnClientCommand(module, command, player, args)
 
     local itemName = item:getDisplayName()
 
-    -- Transfer on the server layer
+    -- Transfer on the server layer *NOT FKN WORKING*
     senderInv:Remove(item)
     targetPlayer:getInventory():AddItem(item)
 
-    -- Push full inventory state to both clients so it persists on reconnect
+    -- Push full inventory state to both clients so it persists on reconnect *Reverts to Receiver!!!*
     player:sendInventory()
     targetPlayer:sendInventory()
 
