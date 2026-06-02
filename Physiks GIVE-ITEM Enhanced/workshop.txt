@@ -1,0 +1,9 @@
+version=1
+id=3726845332
+title=Physiks GIVE ITEM Enhanced B41/B42
+description=Enhanced Give Item Script with Custom Sounds and Text.
+description=Customized for the fine Roleplayers of NO HOPE ROLEPLAY.
+description=Do not repack in any MOD without my EXPLICIT consent. Framework Free!
+description=Now compatible with both Build 41 and Build 42.
+tags=Build 41;Build 42;Multiplayer
+visibility=public

@@ -1,0 +1,37 @@
+VERSION 1,
+
+sound ItemGiveSound
+{
+    category = Item,
+    clip
+    {
+        file = media/sound/ItemGiveSound.ogg,
+        distanceMax = 3,
+        is3D = true,
+        minDistance = 1,
+    }
+}
+
+sound ItemReceivedSound
+{
+    category = Item,
+    clip
+    {
+        file = media/sound/ItemReceivedSound.ogg,
+        distanceMax = 3,
+        is3D = true,
+        minDistance = 1,
+    }
+}
+
+sound ItemDroppedSound
+{
+    category = Item,
+    clip
+    {
+        file = media/sound/ItemDroppedSound.ogg,
+        distanceMax = 3,
+        is3D = true,
+        minDistance = 1,
+    }
+}
